@@ -1,0 +1,8 @@
+### Test Health
+
+GET http://localhost:3000/health
+
+
+### Get By Resource
+
+GET http://localhost:3000/resource/vehicles

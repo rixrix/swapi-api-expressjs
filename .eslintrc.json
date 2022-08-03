@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*"
+  ],
+  "plugins": [
+    "jest"
+  ],
+  "env": {
+    "jest/globals": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.js"
+      ],
+      "extends": [
+        "airbnb-base",
+        "eslint-config-prettier"
+      ],
+      "rules": {
+        "max-len": "off",
+        "class-methods-use-this": "off",
+        "quotes": ["warn", "single", {"allowTemplateLiterals": true}]
+      }
+    }
+  ]
+}
