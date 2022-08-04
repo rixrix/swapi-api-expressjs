@@ -1,8 +1,12 @@
 ### Test Health
 
-GET http://localhost:3000/health
+GET http://localhost:3001/health
 
 
 ### Get By Resource
 
-GET http://localhost:3000/resource/vehicles
+GET http://localhost:3001/resource/vehicles
+
+### Search
+
+GET http://localhost:3001/search/all?query=luke
